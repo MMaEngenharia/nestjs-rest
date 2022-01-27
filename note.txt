@@ -1,0 +1,40 @@
+Documentation
+- [frameword-fullstack] https://docs.nestjs.com/
+- [orm] https://typeorm.io/#/using-cli
+- [query] https://orkhan.gitbook.io/typeorm/docs/select-query-builder#joining-relations
+- [exceptions] https://docs.nestjs.com/exception-filters
+- [.env] https://medium.com/@gausmann.simon/nestjs-typeorm-and-postgresql-full-example-development-and-project-setup-working-with-database-c1a2b1b11b8f
+
+- [x] Configuração do banco de dados
+- [x] Configuração do Migrations
+- [x] Criar modelos de exemplo
+- [x] Configuração do JWT
+- [x] Adicionar a segurança nas requests
+- [x] Definição da aquitetura do projeto
+- [x] Definir json padrão de retorno das respostas
+- [] Criar tabela para guardar a sessão com o token
+- [x] Implementar o controle de exceção
+- [x] Implementar interceptor das mensagens para tratar os status code corretamente e devolver na resposta padrão JSON
+- [x] Implementar o repositorio base
+- [] Remover as propriedades null do json
+- [] Gerar o UUID automaticamente
+- [] Implementar a paginação das consultas
+- [] Configuração dos ambiente de HOMOLOGATION e PRODUCTION
+- [] Adicionar a permissão de acesso
+
+project
+- src
+-- auth
+--- shared
+-- guard
+-- core
+--- exception
+-- modules
+--- common
+--- sales
+--- security
+---- user
+-- app.modele.ts
+-- main.ts
+
+
